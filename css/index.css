@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    border: 1px solid black;
+    border: 1px solid palevioletred;
     padding: 20px;
     margin: 50px;
     display: flex;
