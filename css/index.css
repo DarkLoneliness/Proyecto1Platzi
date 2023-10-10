@@ -20,6 +20,12 @@ body > div {
     align-items: flex-start;
 }
 
+.container > div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 #cabecera{
     color: blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -27,13 +33,8 @@ body > div {
     border: 3px solid cadetblue;
     border-radius: 25px;
     padding: 15px;
-    margin: 18px;
-}
-
-.container > div {
-    display: flex;
-    justify-content: center;
     width: 100%;
+    box-shadow: 10px 5px 5px rgba(121, 121, 121, 0.664);
 }
 
 #contenido{
